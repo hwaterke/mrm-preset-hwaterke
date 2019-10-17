@@ -903,7 +903,7 @@ minimist@^1.2.0:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
-mrm-core@^3.3.4:
+mrm-core@^3.3.0, mrm-core@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/mrm-core/-/mrm-core-3.3.4.tgz#0f23b28c32e09723959678771f417ba8c6209e48"
   integrity sha512-vTywqjBrQIDlRuoww+xspvm/be272c2M54VY2GWY4NCZtSSG3uY6zyEuQekKANM5HEKc8WVn+jQGHmdETQCtww==
@@ -926,6 +926,14 @@ mrm-core@^3.3.4:
     split-lines "^2.0.0"
     strip-bom "^3.0.0"
     webpack-merge "^4.2.1"
+
+mrm-task-lint-staged@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/mrm-task-lint-staged/-/mrm-task-lint-staged-1.4.1.tgz#ad57fac396982986137ec43a01e9cc16b5ac8ee2"
+  integrity sha512-FBjWe7Mf98Ge6SzNIW7JEZGs3WjB3LK6j52cmzl6ShdbahQMeJQXlEmipMPAKdOYoQF/D6E/V2Buj6nn+cG80g==
+  dependencies:
+    mrm-core "^3.3.0"
+    semver "^5.5.1"
 
 ms@^2.1.1:
   version "2.1.2"
