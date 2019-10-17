@@ -1,0 +1,16 @@
+{
+  "name": "mrm-preset-hwaterke",
+  "version": "0.0.1",
+  "repository": "git@github.com:hwaterke/mrm-preset-hwaterke.git",
+  "author": "hwaterke <hwaterke@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "config.json",
+  "files": [
+    "config.json",
+    "*/index.js"
+  ],
+  "dependencies": {
+    "mrm-core": "^3.3.4",
+    "prettier": "^1.18.2"
+  }
+}
