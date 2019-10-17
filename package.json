@@ -16,6 +16,19 @@
     "mrm-core": "^3.3.4"
   },
   "devDependencies": {
+    "husky": ">=1",
+    "lint-staged": ">=8",
     "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,scss,json,md,yml}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
