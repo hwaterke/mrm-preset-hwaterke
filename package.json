@@ -13,7 +13,9 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,md,yml}\""
   },
   "dependencies": {
-    "mrm-core": "^3.3.4",
+    "mrm-core": "^3.3.4"
+  },
+  "devDependencies": {
     "prettier": "^1.18.2"
   }
 }
