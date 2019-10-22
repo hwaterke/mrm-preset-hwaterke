@@ -8,6 +8,7 @@ const PRETTIER_CONFIG = {
   semi: false,
   singleQuote: true,
   trailingComma: 'es5',
+  proseWrap: 'always',
 }
 
 function task() {
