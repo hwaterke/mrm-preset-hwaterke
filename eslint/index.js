@@ -34,12 +34,12 @@ function task(config) {
   // TypeScript
   if (pkg.get('devDependencies.typescript')) {
     const parser = '@typescript-eslint/parser'
-    packages.push([
+    packages.push(
       '@typescript-eslint/eslint-plugin',
       parser,
       'eslint-config-prettier',
-      'eslint-plugin-import',
-    ])
+      'eslint-plugin-import'
+    )
     eslintrc.merge({
       parser,
       parserOptions: {
